@@ -12,5 +12,8 @@ function My_First_Function() {
     document.getElementById("Button_Text").innerHTML = str;
 }
 
+function myFunction() {
+    alert("You pressed a key inside the input field");
+}
 window.alert(Sent3, expression);
 document.write(Sent1 + Sent2);
