@@ -7,6 +7,6 @@ function my_Dictionary() {
         Age: 3,
         Sound: "Huff"
     };
-    delete Animal.Sound; //Deleted the sound attribute
+    delete Octavia.Sound; //Deleted the sound attribute
     document.getElementById("Dictionary").innerHTML = Octavia.Sound; // To connect HTML and JS
 }
