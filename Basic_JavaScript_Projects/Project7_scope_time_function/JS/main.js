@@ -15,7 +15,7 @@ function minusTwo() {
     document.getElementById("Subtr").innerHTML = result;
 }
 
-// This is to help debug and display in the devtool console for the webbrowser
+// This was used to help debug and display in the devtool console for the webbrowser
 console.log(minusTwo());
 
 // This function greets you based on the time of day
