@@ -29,7 +29,28 @@ function searchText() {
     document.getElementById("search").innerHTML = position;
 }
 
+// This function converts numbers to strings
 function string_Method() {
     var x = 182;
     document.getElementById("Numbers_to_string").innerHTML = x.toString();
+}
+
+// This function takes a number, limits the length of the number, and rounds to the set length
+function precision_Method() {
+    var x = 40568.4336912074;
+    document.getElementById("Precision").innerHTML = x.toPrecision(13)
+}
+
+// This function takes a fixed amount of digits, throws away the rest, and displays them
+function fixed_Function() {
+    var num = 6.3545;
+    var n = num.toFixed(2);
+    document.getElementById("fixed").innerHTML = n;
+}
+
+// This function returns the primitive value of a number
+function value_Function() {
+    var num = -21;
+    var n = num.valueOf();
+    document.getElementById("value").innerHTML = n;
 }
