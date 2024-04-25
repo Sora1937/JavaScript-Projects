@@ -57,8 +57,8 @@ function getTopping(runningTotal,text1) {
     // This is for debugging
 	console.log("total selected topping items: "+toppingCount);
 	console.log(toppingCount+" topping - 1 free topping = "+"$"+toppingTotal+".00");
-	console.log("topping text1: "+text1);
-	console.log("Purchase Total: "+"$"+runningTotal+".00");
+	console.log("topping text1: "+ text1);
+	console.log("Purchase Total: " + "$" + runningTotal + ".00");
     // This is so HTML can get what we want 
 	document.getElementById("showText").innerHTML=text1;
 	document.getElementById("totalPrice").innerHTML = "</h3>Total: <strong>$"+runningTotal+".00"+"</strong></h3>";
